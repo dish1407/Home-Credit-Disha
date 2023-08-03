@@ -14,6 +14,7 @@ This repository contains the code and resources for the Home Credit project. The
 - [Solution](#solution)
 - [Recommendation](#recommendation)
 - [Difficulties](#difficulties)
+- [Learnings](#learnings)
 
 ## Introduction
 
@@ -37,6 +38,12 @@ After completing the EDA on the datasets provided, we moved forward to data clea
 We tried various models that gave us varied results. I started out with a random tree forest model taking the historical data which had information including the demographics of the borrower. The few things that the Random Forest Model did was accuracy and robustness. 
 After that, we moved on to other types of models including the Logistic Regression Model, LGBM Classifier Model, and XGB Classifier Model. 
 Among all those models the model that gave the most promising results for the data that we used was the XG Boost Classifies Model. It gave us a high degree of accuracy and was a model that is faster to train as well. The borrower's income, work situation, and debt-to-income ratio were among the variables the model was able to pinpoint as being the most reliable indicators of default. 
+The top predcitors for the XGB Model are:
+1. External Source
+2. Age
+3. Loan Terms
+4. Loan Purpose
+5. Employement
 
 My particular contribution to the project included exploratory data analysis followed by data cleaning. Then I developed a Random Forest Model which gave us an idea to move forward and try other models to get better results. I also collated different notebooks into one single one and wrote the content to explain what we have been doing so far. Error resolution or removal of inconsistencies was also one of the key contributions I made as a team member. 
 
@@ -53,6 +60,12 @@ Some points that Home Credit can take into account is making sure that the data 
 Another point that should be considered is to monitor the model on a regular basis. As long as the model is giving us desired results or may be results better than that, the company is good to go. But if the results start to decline, they need to take a look at the model and investigate further. 
 
 ## Difficulties
-The major
 
+The major issues we faced while doing analysis was the size of the data set, it had millions of rows where half of the columns had missing values. Which led to another problem of finding out the KPIs, which metric to use or which to leave out. 
 
+## Learnings
+
+My particular learnings from this project is both technical and interpersonal. 
+For technical, I worked on Python and learnt there are so many inbuilt libraries that can be used for data analysis directly. 
+Then the importance of your data and cleaning it so that you can use it to it's full extent. 
+For interpersonal skills I learnt how to work in a team and how to manage time according to everyone and to put in your best work. 
