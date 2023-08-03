@@ -1,4 +1,4 @@
-# Home-Credit-Disha
+# Home-Credit-Default-Risk Analysis
 This contains the Python notebooks for home credit default risk analysis.
 
 ## Overview
@@ -11,7 +11,7 @@ This repository contains the code and resources for the Home Credit project. The
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Contributing](#contributing)
-- [Solution](#Solution)
+- [Solution](#solution)
 - [Recommendation](#recommendation)
 - [Difficulties](#difficulties)
 
@@ -52,5 +52,7 @@ Our recommendation for Home Credit is to implement this XGB Model which will giv
 Some points that Home Credit can take into account is making sure that the data they use for their model prediction is accurate and complete because having too many error or too many missing values can skew the final results. 
 Another point that should be considered is to monitor the model on a regular basis. As long as the model is giving us desired results or may be results better than that, the company is good to go. But if the results start to decline, they need to take a look at the model and investigate further. 
 
+## Difficulties
+The major
 
 
